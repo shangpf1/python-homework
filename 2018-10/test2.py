@@ -44,3 +44,16 @@ test3 = "sunshine09"
 y3 = test3.isalnum()
 print(y3)
 
+#运行结果如下：
+
+Alex
+alex
+alex
+***aLex***
+False
+False
+2
+i am {name}
+i am jame
+i am lucy,age 19
+True
