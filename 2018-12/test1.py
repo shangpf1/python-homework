@@ -46,7 +46,7 @@ def reduce_one(x):
 # 将下面的逻辑封装到此函数中
 def map_test1(func,array):
     res = []
-    for i in num1:
+    for i in array:
         yt = func(i)  # add_one(i)
         res.append(yt)
     return res
