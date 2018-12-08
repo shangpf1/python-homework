@@ -51,10 +51,15 @@ def map_test1(func,array):
         res.append(yt)
     return res
 
-# print(map_test1(add_one,num1))
+# 函数自增1的结果
+print(map_test1(add_one,num1))
 # print(map_test1(lambda x:x+1,num1))
 
-# print(map_test1(reduce_one,num1))
+# 函数自减1的结果
+print(map_test1(reduce_one,num1))
 # print(map_test1(lambda x:x-1,num1))
 
+# 函数的平方的结果
 print(map_test1(lambda x:x**2,num1))
+
+
