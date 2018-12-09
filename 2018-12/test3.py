@@ -27,6 +27,6 @@ movie_person3 = ['shu_sb','yen_sb','sb_hsi','hsb','shidf']
 print(filter(lambda n:not n.endswith('sb'),movie_person3))
 
 reponse1 = filter(lambda n:not n.endswith('sb'),movie_person3)
-print(list(reponse1))
+print(list(reponse1))  #结果中过滤到以sb结果的值
 
 
