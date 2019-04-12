@@ -3,7 +3,7 @@
 
 文档地址 https://github.com/python-excel/xlrd
 """
-
+# 文件的写入，必须先安装此库 pip install xlrd
 import xlrd
 
 book = xlrd.open_workbook('data.xls')
@@ -45,5 +45,4 @@ Cell D30 is 92.0
 [text:'c0018', text:'张柏芝', number:98.0]
 [text:'c0019', text:'林志玲', number:93.0]
 [text:'c0020', text:'green', number:92.0]
-
 """
