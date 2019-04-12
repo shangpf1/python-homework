@@ -1,4 +1,4 @@
-# 用爬虫抓取页面信息后并且将结果保存到表格中
+# 用爬虫抓取页面信息后并且将结果中的数据保存到表格中
 
 from selenium import webdriver
 # import time
