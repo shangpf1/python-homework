@@ -23,3 +23,16 @@ print(len(eles))
 for ele in eles:
     print('txt:',ele.text)
 
+# 运行结果：
+"""
+1
+txt: 新闻
+hao123
+地图
+视频
+贴吧
+学术
+登录
+设置
+更多产品
+"""
