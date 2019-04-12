@@ -3,7 +3,19 @@
 
 
 f = open('慕容飞儿',encoding='utf-8')
-data = f.read()
-print(data)
+# data = f.read()
+# print(data)
+# f.close()   #打开之后必须要关闭文件，不然会不停的占系统内存
 
-f.close()   #打开之后必须要关闭文件，不然会不停的占系统内存
+# readline用法
+
+# data = f.readline()
+# print('第一次打印：',data)
+# print('第二次打印：',data)
+# print('第三次打印：',data)
+
+# readlines用法
+
+data = f.readlines()
+print('第一次打印：',data)
+print('第二次打印：',data)

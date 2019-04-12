@@ -24,7 +24,7 @@ print(res)
 # 定义一个方法，直接调用此方法
 def map_test(array):
     res = []
-    for i in num:
+    for i in array:
         res.append(i**2)
     return res
 
