@@ -3,7 +3,7 @@
 
 文档地址 https://github.com/python-excel/xlrd
 """
-# 文件的写入，必须先安装此库 pip install xlrd
+# excel文件数据的读取，必须先安装此库 pip install xlrd
 import xlrd
 
 book = xlrd.open_workbook('data.xls')
