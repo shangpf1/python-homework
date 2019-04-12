@@ -1,4 +1,4 @@
-# 图片的上传及截图
+# 打开百度页面相关图片的上传及截图
 
 from selenium import webdriver
 from os import path
