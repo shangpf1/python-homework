@@ -1,4 +1,5 @@
 # 有关图形验证码，且验证码中的数字必须是不同的颜色才可
+# 此次用的时百度ocr的图形验证码方法，并不是全能的，
 
 import requests,base64
 from selenium import webdriver
