@@ -4,6 +4,8 @@
 
 # print(client.database_names())
 
+# CNode 社区发帖
+
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 driver = webdriver.Chrome()
